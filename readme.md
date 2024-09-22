@@ -11,6 +11,8 @@
 
     Versão do Node usada no projeto  (version: 13.14.2) . Para outras versões verfique as atualizações necessárias para os demais pacotes.
         Para instalar Cypress:  npm install -D cypress@13.14.2
+    Instalar xPath Lib
+    npm install -D cypress-xpath
 
 # Para rodar o projeto
     Depois de instalado os programas e dependencias, execute o projeto no modo visual (head) com o comando:
