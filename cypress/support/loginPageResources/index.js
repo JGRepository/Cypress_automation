@@ -3,11 +3,11 @@
 const el = require('./elements').ELEMENTS
 
 class Login {
-  DadoQueAcessoLogin() {
+  givenIAcessLoginPage() {
     cy.visit("https://www.saucedemo.com/v1/")
   }
 
-  ePreenchaOsCamposDeLogin(username, password) {
+  andFillTheLoginInputs(username, password) {
     cy.get(el.username).type(username)
     cy.get(el.password).type(password)
   }
@@ -19,10 +19,10 @@ class Login {
     cy.get(el.username).type(username)
   }
 
-  clicarNoBotãoLogin(){
+  clickOnLoginBtn(){
     cy.get('#login-button').click()
   }
-  EntaoDeveRealizarOLogin(){
+  thenShouldEnter(){
     cy.url().should('include', '/inventory.html')
   }
 

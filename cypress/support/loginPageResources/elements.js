@@ -5,3 +5,4 @@ export const ELEMENTS ={
     errorMsg:'[data-test="error"]',
     btnErrorMsg:'//*[@class="svg-inline--fa fa-times-circle fa-w-16 fa-2x "]'
 }
+
